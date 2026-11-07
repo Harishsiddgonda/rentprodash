@@ -1,5 +1,7 @@
 # RentPro — Rental Management App
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Harishsiddgonda/rentprodash)
+
 RentPro is a full-stack rental management system featuring flat/tenant tracking, utility meter billing (electricity, water, sanitation), monthly invoice generation, payment ledger, monthly CSV exports, and downloadable PDF bills.
 
 ## Project Structure

@@ -4,7 +4,8 @@
   "private": true,
   "description": "Rental management mobile app with monthly utility billing and CSV exports",
   "scripts": {
-    "start": "npm --prefix backend start",
+    "start": "node backend/src/server.js",
+    "build": "npm --prefix backend install && npm --prefix mobile install && npm --prefix mobile run build:web",
     "start:backend": "npm --prefix backend start",
     "start:frontend": "npm --prefix mobile run web",
     "build:frontend": "npm --prefix mobile run build:web",
