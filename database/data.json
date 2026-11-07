@@ -1,0 +1,105 @@
+{
+  "flats": [
+    {
+      "id": 1,
+      "flatNumber": "101",
+      "tenantName": "Rahul Sharma",
+      "phone": "+91 98765 43210",
+      "monthlyRent": 15000,
+      "electricityReading": 450,
+      "waterReading": 60,
+      "occupied": true
+    },
+    {
+      "id": 2,
+      "flatNumber": "102",
+      "tenantName": "Priya Nair",
+      "phone": "+91 98123 45678",
+      "monthlyRent": 18000,
+      "electricityReading": 620,
+      "waterReading": 85,
+      "occupied": true
+    },
+    {
+      "id": 3,
+      "flatNumber": "201",
+      "tenantName": "Anand Verma",
+      "phone": "+91 97654 32109",
+      "monthlyRent": 14000,
+      "electricityReading": 310,
+      "waterReading": 45,
+      "occupied": true
+    },
+    {
+      "id": 4,
+      "flatNumber": "202",
+      "tenantName": "",
+      "phone": "",
+      "monthlyRent": 16000,
+      "electricityReading": 200,
+      "waterReading": 30,
+      "occupied": false
+    }
+  ],
+  "bills": [
+    {
+      "id": 1,
+      "flatId": 1,
+      "flatNumber": "101",
+      "tenantName": "Rahul Sharma",
+      "month": "2026-10",
+      "rent": 15000,
+      "electricityPrevious": 350,
+      "electricityCurrent": 450,
+      "electricityUnits": 100,
+      "electricityRate": 8,
+      "electricityAmount": 800,
+      "waterPrevious": 50,
+      "waterCurrent": 60,
+      "waterUnits": 10,
+      "waterRate": 30,
+      "waterAmount": 300,
+      "garbageAmount": 125,
+      "otherCharges": 0,
+      "total": 16225,
+      "paidAmount": 16225,
+      "balance": 0,
+      "status": "PAID",
+      "paymentMethod": "UPI",
+      "paymentDate": "2026-10-05"
+    },
+    {
+      "id": 2,
+      "flatId": 2,
+      "flatNumber": "102",
+      "tenantName": "Priya Nair",
+      "month": "2026-10",
+      "rent": 18000,
+      "electricityPrevious": 500,
+      "electricityCurrent": 620,
+      "electricityUnits": 120,
+      "electricityRate": 8,
+      "electricityAmount": 960,
+      "waterPrevious": 70,
+      "waterCurrent": 85,
+      "waterUnits": 15,
+      "waterRate": 30,
+      "waterAmount": 450,
+      "garbageAmount": 125,
+      "otherCharges": 0,
+      "total": 19535,
+      "paidAmount": 10000,
+      "balance": 9535,
+      "status": "PARTIAL",
+      "paymentMethod": "UPI",
+      "paymentDate": "2026-10-08"
+    }
+  ],
+  "settings": {
+    "electricityRate": 8,
+    "waterRate": 30,
+    "garbageAmount": 125
+  },
+  "nextFlatId": 5,
+  "nextBillId": 3
+}

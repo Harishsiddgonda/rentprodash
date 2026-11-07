@@ -1,0 +1,14 @@
+{
+  "name": "rentpro-rental-management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rental management mobile app with monthly utility billing and CSV exports",
+  "scripts": {
+    "start": "npm --prefix backend start",
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix mobile run web",
+    "build:frontend": "npm --prefix mobile run build:web",
+    "dev:backend": "npm --prefix backend run dev",
+    "test": "npm --prefix backend test"
+  }
+}

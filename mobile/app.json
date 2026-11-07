@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "RentPro",
+    "slug": "rentpro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.rentpro.owner"
+    },
+    "ios": {
+      "bundleIdentifier": "com.rentpro.owner"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
